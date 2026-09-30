@@ -1,0 +1,2 @@
+import type { Config } from 'tailwindcss'
+export default { content: ['./index.html', './src/**/*.{ts,tsx}'], theme: { extend: { colors: { ink: '#171012', surface: '#21161A', card: '#281B20', cream: '#FFF4E6', coral: '#FF6B57', orange: '#F28C45', amber: '#F6B84A', positive: '#55B685' }, borderRadius: { xl: '1rem', '2xl': '1.35rem' }, fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] } } }, plugins: [] } satisfies Config
